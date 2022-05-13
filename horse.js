@@ -1,3 +1,4 @@
+function myFunction(){
 let firstAnswer  = window.prompt('Do you know the correct way to saddle a horse?')
 if(firstAnswer === 'yes'){
     let secondAnswer = window.prompt(`Let's test your knowledge. Do you begin with: a. throwing the saddle on. b.Catching the horse. c.Drawing a picture of your horse with a saddle.`)
@@ -17,4 +18,5 @@ else if(firstAnswer === 'no') {
     if (secondAnswer === 'ok') {
         let secondAnswer = window.prompt('make a loop here')
     }
+}
 }
