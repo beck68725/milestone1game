@@ -6,4 +6,20 @@ body {
 .flex-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#horse,#cow,#chickens {
+    display: inline-grid;
+    justify-items: center;
+}
+
+button {
+    background-color: rgb(226, 222, 230);
+    font-size: large;
+}
+
+a:link {
+    text-decoration: none;
 }
