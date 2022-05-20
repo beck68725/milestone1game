@@ -1,3 +1,8 @@
+//score
+let myScore = 0
+let wrongAnswer = 0
+
+//question 1
 function myFunction1(){
 let firstAnswer  = window.prompt('Do you know the correct way to saddle a horse?')
     if(firstAnswer === 'yes'){
@@ -20,24 +25,27 @@ let firstAnswer  = window.prompt('Do you know the correct way to saddle a horse?
         let secondAnswer = window.prompt(`Let's do a little research, see what we can find and try again.`)
         }
 }
-
+//question 2
 function myFunction2(){
     let firstAnswer  = window.prompt('True or False--Do Horses have 10 different muscles in their ears?')
     if(firstAnswer === 'true'){
-        let secondAnswer = window.prompt(`You are correct!!`)
+        let secondAnswer = window.prompt(`You are correct!!`);
+        console.log(myScore + 1);
     } else if(firstAnswer === 'false') {
-        let secondAnswer = window.prompt(`This is actually true. The 10 muscles allow the ears to rotate nearly 180 degrees and move independently of one another.`)
+        let secondAnswer = window.prompt(`This is actually true. The 10 muscles allow the ears to rotate nearly 180 degrees and move independently of one another.`);
+        console.log(wrongAnswer = 1);
     }
 }
-
+//question 3
 function myFunction3(){
     let firstAnswer  = window.prompt('How many degrees can a horse see? a. 300 degrees, b.100 degrees, c. 360 degrees.')
         if(firstAnswer === 'a'){
-            let secondAnswer = window.prompt(`That is not correct. Try again.`)
+            let secondAnswer = window.prompt(`That is not correct. Try again.`);
+            console.log(wrongAnswer = 1);
         } else if(firstAnswer === 'b') {
-            let secondAnswer = window.prompt(`That is not correct. A person can see 180 degrees. Try again.`)
+            let secondAnswer = window.prompt(`That is not correct. A person can see 180 degrees. Try again.`);
+            console.log(wrongAnswer = 1);
         } else if(firstAnswer === 'c') {
             let secondAnswer = window.prompt(`360 degrees is correct. A horse can almost see in a full circle.`)
         }
 }
-    
