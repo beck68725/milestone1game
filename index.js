@@ -35,8 +35,8 @@ let content = `
     </div>
   </main>`;
 
-    document.body.innerHTML = content;
+  document.body.innerHTML = content;
 
-    
+
     
 

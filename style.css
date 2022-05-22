@@ -17,7 +17,7 @@ body {
 }
 
 button {
-  background-color: rgb(226, 222, 230);
+  background-color: rgb(190, 88, 19);
   font-size: larger;
 }
 
@@ -27,5 +27,5 @@ a:link {
 }
 
 h3 {
-  color: rebeccapurple;
+  color: rgb(187, 94, 18);
 }
