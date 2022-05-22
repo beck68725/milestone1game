@@ -43,7 +43,7 @@ function myFunction3(){
         } else if(firstAnswer === 'b') {
             let secondAnswer = window.alert(`That is not correct. A person can see 180 degrees. Try again.`);
             wrongAnswer++;
-        console.log(wrongAnswer);
+        console.log(wrongAnswer);a
         } else if(firstAnswer === 'c') {
             let secondAnswer = window.alert(`360 degrees is correct. A horse can almost see in a full circle.`);
             myScore++;
